@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: read_aloud_production
-  username: read_aloud
-  password: <%= ENV['READ_ALOUD_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
