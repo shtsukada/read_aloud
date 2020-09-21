@@ -1,24 +1,37 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション名
+read_aloud
 
-Things you may want to cover:
+## アプリケーション概要
+朗読アプリ。「amazon polly」を使い、機会音声で物語を朗読させる。
 
-* Ruby version
+## URL
+http://54.168.2.116/
 
-* System dependencies
+## テスト用アカウント
+アドレス：test@email.com
+パスワード：test28828
 
-* Configuration
+## 利用方法
+作品名を選択すると機会音声による朗読が開始される。
 
-* Database creation
+## 目指した課題解決
+機会音声の出力である為、失敗がない。
+「amazon polly」を使っている為、コストが掛かることはほぼ無い。
+音声データの作成は、1分前後で終了する。
 
-* Database initialization
+<!-- ## 洗い出した要件
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## 実装した機能についてのGIFと説明
 
-* Deployment instructions
 
-* ...
+## 実装予定の機能
+
+
+## データベース設計
+
+
+## ローカルでの動作方法
+ -->
